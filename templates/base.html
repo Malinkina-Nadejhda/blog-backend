@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 {% load static %}
 
-<html lang="en">
-<head>
-  <link rel="stylesheet" href="{% static 'styles.min.css' %}">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sensive Blog - {% block title %}{% endblock %}</title>
-  <link rel="icon" href="{% static 'img/favicon.png' %}" type="image/png">
-</head>
-<body>
+  <html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static 'styles.min.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sensive Blog - {% block title %}{% endblock %}</title>
+    <link rel="icon" href="{% static 'img/favicon.png' %}" type="image/png">
+  </head>
+  <body>
 
   <!--================Header Menu Area =================-->
   <header class="header_area">
@@ -118,10 +118,6 @@
   </footer>
   <!--================ End Footer Area =================-->
 
-</body>
-</html>
-
-
-<script src="{% static 'scripts.js' %}"></script>
-</body>
+    <script src="{% static 'scripts.js' %}"></script>
+  </body>
 </html>
